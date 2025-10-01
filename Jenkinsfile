@@ -6,7 +6,7 @@ pipeline {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'                                 // <------DON'T change this
         DOCKER_IMAGE = 'cithit/learytl'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/learytl/225-lab3-1.git'                   // <------change this
+        GITHUB_URL = 'https://github.com/learytl/225-lab3-2.git'                   // <------change this
         KUBECONFIG = credentials('learytl-225')                                             // <------change this
     }
 
